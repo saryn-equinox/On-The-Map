@@ -17,9 +17,7 @@ class LogInViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         activityIndicator.hidesWhenStopped = true
-//        self.navigationController?.setNavigationBarHidden(true, animated: false)
-        username.text = "haotingqiu@gmail.com"
-        password.text = "Ea$onYau1997"
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
     
     
