@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		970A6968259C1DB70052FA95 /* UdaLogoutResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970A6967259C1DB60052FA95 /* UdaLogoutResponse.swift */; };
+		970A696C259C2D260052FA95 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970A696B259C2D260052FA95 /* AppData.swift */; };
+		970A696F259D7A660052FA95 /* StudentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970A696E259D7A660052FA95 /* StudentLocation.swift */; };
 		973C62A92599422A00756A25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C62A82599422A00756A25 /* AppDelegate.swift */; };
 		973C62AB2599422A00756A25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C62AA2599422A00756A25 /* SceneDelegate.swift */; };
 		973C62AD2599422A00756A25 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C62AC2599422A00756A25 /* LogInViewController.swift */; };
@@ -17,9 +20,24 @@
 		973C62D825998AAE00756A25 /* LogInSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C62D725998AAE00756A25 /* LogInSession.swift */; };
 		973C62DD25998ADD00756A25 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C62DC25998ADD00756A25 /* UserInfo.swift */; };
 		973C62E025998B4200756A25 /* OTMClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C62DF25998B4200756A25 /* OTMClient.swift */; };
+		973C62E6259B02CE00756A25 /* UdaSessionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C62E5259B02CE00756A25 /* UdaSessionResponse.swift */; };
+		973C62E9259B02FF00756A25 /* UdaSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C62E8259B02FF00756A25 /* UdaSession.swift */; };
+		973C62EC259B030A00756A25 /* UdaAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C62EB259B030900756A25 /* UdaAccount.swift */; };
+		973C62EF259BFF5A00756A25 /* UdaErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C62EE259BFF5A00756A25 /* UdaErrorResponse.swift */; };
+		973C62F4259C013C00756A25 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C62F3259C013C00756A25 /* MapViewController.swift */; };
+		97E0BA1B259DB18F00A13692 /* StudentsLocationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E0BA1A259DB18F00A13692 /* StudentsLocationResult.swift */; };
+		97E0BA1E259DD61D00A13692 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E0BA1D259DD61D00A13692 /* TableViewController.swift */; };
+		97E0BA21259EAB5700A13692 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E0BA20259EAB5700A13692 /* PreviewViewController.swift */; };
+		97E0BA24259EAC2900A13692 /* NewPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E0BA23259EAC2900A13692 /* NewPinViewController.swift */; };
+		97E0BA28259EB11B00A13692 /* InitialNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E0BA27259EB11B00A13692 /* InitialNavigationController.swift */; };
+		97E0BA2C259EB79F00A13692 /* UserMapInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E0BA2B259EB79F00A13692 /* UserMapInfo.swift */; };
+		97E0BA2F259EB83000A13692 /* UpdateUserMapResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E0BA2E259EB83000A13692 /* UpdateUserMapResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		970A6967259C1DB60052FA95 /* UdaLogoutResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdaLogoutResponse.swift; sourceTree = "<group>"; };
+		970A696B259C2D260052FA95 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		970A696E259D7A660052FA95 /* StudentLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLocation.swift; sourceTree = "<group>"; };
 		973C62A52599422A00756A25 /* OnTheMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnTheMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		973C62A82599422A00756A25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		973C62AA2599422A00756A25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +50,18 @@
 		973C62D725998AAE00756A25 /* LogInSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInSession.swift; sourceTree = "<group>"; };
 		973C62DC25998ADD00756A25 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		973C62DF25998B4200756A25 /* OTMClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTMClient.swift; sourceTree = "<group>"; };
+		973C62E5259B02CE00756A25 /* UdaSessionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdaSessionResponse.swift; sourceTree = "<group>"; };
+		973C62E8259B02FF00756A25 /* UdaSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdaSession.swift; sourceTree = "<group>"; };
+		973C62EB259B030900756A25 /* UdaAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdaAccount.swift; sourceTree = "<group>"; };
+		973C62EE259BFF5A00756A25 /* UdaErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdaErrorResponse.swift; sourceTree = "<group>"; };
+		973C62F3259C013C00756A25 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		97E0BA1A259DB18F00A13692 /* StudentsLocationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsLocationResult.swift; sourceTree = "<group>"; };
+		97E0BA1D259DD61D00A13692 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		97E0BA20259EAB5700A13692 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		97E0BA23259EAC2900A13692 /* NewPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPinViewController.swift; sourceTree = "<group>"; };
+		97E0BA27259EB11B00A13692 /* InitialNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialNavigationController.swift; sourceTree = "<group>"; };
+		97E0BA2B259EB79F00A13692 /* UserMapInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMapInfo.swift; sourceTree = "<group>"; };
+		97E0BA2E259EB83000A13692 /* UpdateUserMapResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateUserMapResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +75,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		970A696A259C2D0C0052FA95 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				970A696B259C2D260052FA95 /* AppData.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		973C629C2599422A00756A25 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +117,11 @@
 			children = (
 				973C62AC2599422A00756A25 /* LogInViewController.swift */,
 				973C62D125997DC700756A25 /* MainViewController.swift */,
+				973C62F3259C013C00756A25 /* MapViewController.swift */,
+				97E0BA1D259DD61D00A13692 /* TableViewController.swift */,
+				97E0BA20259EAB5700A13692 /* PreviewViewController.swift */,
+				97E0BA23259EAC2900A13692 /* NewPinViewController.swift */,
+				97E0BA27259EB11B00A13692 /* InitialNavigationController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -96,6 +139,7 @@
 		973C62D425998A0000756A25 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				970A696A259C2D0C0052FA95 /* App */,
 				973C62E225998B8C00756A25 /* Request */,
 				973C62D625998A1300756A25 /* Response */,
 				973C62D525998A0F00756A25 /* Client */,
@@ -114,6 +158,14 @@
 		973C62D625998A1300756A25 /* Response */ = {
 			isa = PBXGroup;
 			children = (
+				970A696E259D7A660052FA95 /* StudentLocation.swift */,
+				973C62E5259B02CE00756A25 /* UdaSessionResponse.swift */,
+				973C62E8259B02FF00756A25 /* UdaSession.swift */,
+				973C62EB259B030900756A25 /* UdaAccount.swift */,
+				973C62EE259BFF5A00756A25 /* UdaErrorResponse.swift */,
+				970A6967259C1DB60052FA95 /* UdaLogoutResponse.swift */,
+				97E0BA1A259DB18F00A13692 /* StudentsLocationResult.swift */,
+				97E0BA2E259EB83000A13692 /* UpdateUserMapResponse.swift */,
 			);
 			path = Response;
 			sourceTree = "<group>";
@@ -123,6 +175,7 @@
 			children = (
 				973C62D725998AAE00756A25 /* LogInSession.swift */,
 				973C62DC25998ADD00756A25 /* UserInfo.swift */,
+				97E0BA2B259EB79F00A13692 /* UserMapInfo.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -197,13 +250,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				970A6968259C1DB70052FA95 /* UdaLogoutResponse.swift in Sources */,
+				973C62E6259B02CE00756A25 /* UdaSessionResponse.swift in Sources */,
+				97E0BA1E259DD61D00A13692 /* TableViewController.swift in Sources */,
+				973C62E9259B02FF00756A25 /* UdaSession.swift in Sources */,
+				970A696F259D7A660052FA95 /* StudentLocation.swift in Sources */,
 				973C62AD2599422A00756A25 /* LogInViewController.swift in Sources */,
 				973C62A92599422A00756A25 /* AppDelegate.swift in Sources */,
+				97E0BA2F259EB83000A13692 /* UpdateUserMapResponse.swift in Sources */,
+				973C62EC259B030A00756A25 /* UdaAccount.swift in Sources */,
 				973C62D825998AAE00756A25 /* LogInSession.swift in Sources */,
 				973C62AB2599422A00756A25 /* SceneDelegate.swift in Sources */,
+				97E0BA1B259DB18F00A13692 /* StudentsLocationResult.swift in Sources */,
+				97E0BA24259EAC2900A13692 /* NewPinViewController.swift in Sources */,
+				973C62F4259C013C00756A25 /* MapViewController.swift in Sources */,
 				973C62E025998B4200756A25 /* OTMClient.swift in Sources */,
 				973C62DD25998ADD00756A25 /* UserInfo.swift in Sources */,
+				97E0BA28259EB11B00A13692 /* InitialNavigationController.swift in Sources */,
+				973C62EF259BFF5A00756A25 /* UdaErrorResponse.swift in Sources */,
+				97E0BA2C259EB79F00A13692 /* UserMapInfo.swift in Sources */,
 				973C62D225997DC700756A25 /* MainViewController.swift in Sources */,
+				970A696C259C2D260052FA95 /* AppData.swift in Sources */,
+				97E0BA21259EAB5700A13692 /* PreviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
