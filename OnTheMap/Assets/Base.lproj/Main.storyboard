@@ -243,11 +243,16 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="0jf-r0-4I5">
+                                <rect key="frame" x="177.5" y="290" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZGo-xZ-mP3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="0jf-r0-4I5" firstAttribute="top" secondItem="bMK-eu-2rl" secondAttribute="bottom" constant="5" id="E1Z-RT-0fH"/>
                             <constraint firstItem="bMK-eu-2rl" firstAttribute="top" secondItem="ac6-ZE-jNv" secondAttribute="bottom" constant="50" id="In9-KO-9vw"/>
+                            <constraint firstItem="0jf-r0-4I5" firstAttribute="centerX" secondItem="bMK-eu-2rl" secondAttribute="centerX" id="Jci-8r-uQC"/>
                             <constraint firstItem="ac6-ZE-jNv" firstAttribute="centerX" secondItem="bMK-eu-2rl" secondAttribute="centerX" id="Mml-mh-wH7"/>
                             <constraint firstItem="ac6-ZE-jNv" firstAttribute="top" secondItem="ZGo-xZ-mP3" secondAttribute="top" constant="50" id="kJd-N4-UIx"/>
                             <constraint firstItem="ZGo-xZ-mP3" firstAttribute="trailing" secondItem="bMK-eu-2rl" secondAttribute="trailing" constant="35" id="lXe-f1-4ty"/>
@@ -255,6 +260,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="activityIndicator" destination="0jf-r0-4I5" id="vXA-He-IqA"/>
                         <outlet property="location" destination="QhT-iN-3ot" id="HwR-8J-o5g"/>
                         <outlet property="mediaLink" destination="F4v-AA-7TD" id="i88-Bz-trp"/>
                     </connections>

@@ -12,6 +12,7 @@ class NewPinViewController: UIViewController {
 
     @IBOutlet weak var location: UITextField!
     @IBOutlet weak var mediaLink: UITextField!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +20,7 @@ class NewPinViewController: UIViewController {
         self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "Add Location", style: .plain, target: nil, action: nil)
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "CANCEL", style: .plain, target: self, action: #selector(cancelButtonTapped))
         self.navigationItem.title = "Add Location"
-        // Do any additional setup after loading the view.
+        activityIndicator.hidesWhenStopped = true
     }
     
     @objc private func cancelButtonTapped() {
@@ -28,6 +29,7 @@ class NewPinViewController: UIViewController {
     
 
     @IBAction func findLocationTapped(_ sender: Any) {
+        toggleActivityIndicator(true)
         let geoDecoder = CLGeocoder()
         geoDecoder.geocodeAddressString(location.text ?? "") { (placemarks, error) in
             if (error != nil) {
@@ -51,11 +53,21 @@ class NewPinViewController: UIViewController {
             previewVC.location = self.location.text ?? ""
             previewVC.meadiaURL = self.mediaLink.text ?? ""
             self.navigationController?.pushViewController(previewVC, animated: true)
+            self.toggleActivityIndicator(false)
+        }
+    }
+    
+    func toggleActivityIndicator(_ run: Bool) {
+        if (run) {
+            activityIndicator.startAnimating();
+        } else {
+            activityIndicator.stopAnimating();
         }
     }
     
     func showFailure(message: String) {
         DispatchQueue.main.async {
+            self.toggleActivityIndicator(false)
             let alertVC = UIAlertController(title: "AddLocation Alert", message: message, preferredStyle: .alert)
             alertVC.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
             self.present(alertVC, animated: true, completion: nil)
